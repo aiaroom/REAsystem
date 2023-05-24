@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    
+    <meta charset="UTF-8">
+    <title>REA education</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@200&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="loginwin">
+        <div class="loginform">
+            <p class="loghead">Вход в систему</p>
+            <form class="login" action="login.php" method="post" enctype="multipart/form-data">
+                <div class="login_field">
+                    <input type="text" class="login__input" placeholder="Имя пользователя/email/номер телефона" name="username" id="name" required>
+                </div>
+                <div class="login_field">
+                    <input type="password" class="login__input" placeholder="Пароль" name="password" id="password" required>
+                </div>	
+                <div><input type="checkbox" value="remember" class="custom-checkbox"><label>запомнить меня</label></div>			
+            </form>
+            <div class="but">
+            <button class="login__submit">
+                <a class="button__text" href="">Войти в систему</a>
+            </button>
+            </div>
+        </div>
+    </div>
+    <div class="logo"><img src="Group.png" alt="LOGO"></div>
+      
+      
+  </body>
+</html>
